@@ -1,0 +1,52 @@
+body{
+  
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+.inicio{
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/resident-evil-hero-banner-02-ps4-us-03jan19-1562162244.jpeg?crop=0.377xw:1.00xh;0.321xw,0&resize=640:*");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2/3;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.inicio2{
+    background-image: url("https://pm1.narvii.com/6604/a945890973a349f0b185f7e2c9a5797c11eab7fd_hq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100vh;
+    width: 100%;
+}
+.inicio3{
+    background-image: url("https://media2.giphy.com/media/Ai8iZqHx2i0fK/source.gif");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 100vh;
+    width: 100%;
+}
+.input{
+    border-radius: 50px;
+    padding: 10px;
+}
+.button{
+    border-radius: 50px;
+    padding: 10px;
+    width: 200px;
+}
+h1{
+    font-weight: bold;
+    align-self: center;  
+    color: white;
+}
